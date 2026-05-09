@@ -53,3 +53,7 @@ Your data is stored locally in the `vault_data/` directory.
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
+
+## Icon/image Credit
+
+<a href="https://www.flaticon.com/free-icons/cyber" title="cyber icons">Cyber icons created by logisstudio - Flaticon</a>

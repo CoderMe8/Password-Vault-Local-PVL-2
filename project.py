@@ -10,11 +10,10 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
 # Constants
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-VAULT_DIR = os.path.join(BASE_DIR, "vault_data")
+VAULT_DIR = "./vault_data"
 CONFIG_FILE = os.path.join(VAULT_DIR, "config.json")
 DATA_FILE = os.path.join(VAULT_DIR, "vault.enc")
-CATEGORIES = ["Game", "Website", "E-mail", "Education", "Code", "Business", "Accounts"]
+CATEGORIES = ["Game", "Website", "E-mail", "Accounts"]
 
 # Set Appearance
 ctk.set_appearance_mode("Light")
